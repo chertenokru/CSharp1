@@ -32,7 +32,7 @@ namespace Complex
                     }
 
                 }
-                Console.WriteLine((res) ? "ok, следующее число" : "ошибка, повторите ввод");
+                Console.WriteLine((res) ? "ok" : "ошибка, повторите ввод");
             } while (!res);
             return new Complex(a,b);
         }
